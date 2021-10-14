@@ -1,0 +1,181 @@
+.content{
+	 
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:50px;
+
+}
+.content-review{
+	margin-top:50px;
+	margin-left:63px;
+	margin-right:220px;
+
+}
+.carousel-control-prev , .carousel-control-next  {
+      opacity:0;
+
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+     color:black;
+
+}
+
+#button-add-to-cart  {
+	background:black;
+	color:white;
+	height:48px;
+	width:210px;
+	margin-left:8px;
+	
+	
+}
+.btn-light:hover {
+	background:black;
+	color:white;
+	opacity:0.88;
+ 
+	}
+#button-add-to-favorites:hover {
+	 background:white;
+     color:#F11616;
+	 border-color:grey;
+	}		
+#button-add-to-favorites{
+	background:white;
+	color:grey;
+	border-width:1px;
+	border-color:grey;
+	height:48px;
+	width:49px;
+}
+.btn-cart-favorites{
+	display:flex;
+}
+.mr-1{
+	font-size:20px;
+	font
+}
+#margin-top{
+	margin-top:0 !important;
+}
+.row{
+	width:92%;
+}
+.rating{
+	padding-left:5px;
+}
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: red;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+	margin-left:570px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: red;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: red;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: red;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+li {
+	list-style-type:none;
+}
+.fa-star {
+	margin-left:5px;
+    color: red;
+    cursor: pointer
+}
+.product-info{
+	 
+}
+
+
+
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 14px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #F11616;
+	padding-right:40px;
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none;
+	width:780px;
+}
+.like{
+	background:white;
+}
+#button-review{
+	background:black;
+	border-color:black;
+}
+#button-review:hover {
+	background:white;
+	border-color:black;
+	color:black;
+}
