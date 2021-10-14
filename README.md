@@ -1,1 +1,1 @@
-# Strore
+# Store
