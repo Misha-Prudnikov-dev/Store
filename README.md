@@ -27,7 +27,6 @@
 * Login
 * Change language
 * View menu
-* Manage cart
 * View reviews
 ## User's scope
 * Make order
